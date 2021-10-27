@@ -1,0 +1,29 @@
+<div class="register">
+  <h1>Registration Form</h1>
+  <form>
+    <label>Name</label><input type="text" #myname id="myname" autocomplete="off"><br><br>
+    <label>Email</label><input type="text" #myemail id="myemail" autocomplete="off"><br><br>
+    <label>Mobile</label><input type="text" #myphone id="myphone" autocomplete="off"><br><br>
+    <label>Password</label><input type="text" #mypass id="mypass" autocomplete="off"><br><br>
+
+    <!-- EVENT BINDING -->
+    <input type="button" value="Register" id="reg" (click)="login(myname.value, myemail.value, myphone.value, mypass.value)">
+    <br>
+    <input type="button" value="Login" id="log" routerLink="login" (click)="reg()">
+  </form>
+</div>
+
+<router-outlet></router-outlet>
+
+<!-- TWO WAY BINDING -->
+<!-- <input type="text" [(ngModel)]="mydata" style="width: 300px;height: 40px;border-radius: 20px;">  
+
+<br>
+
+{{mydata}}
+
+<app-c1></app-c1>
+<hr>
+<app-c2></app-c2>
+<hr>
+<app-c3></app-c3> -->

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register{
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 350px;
+}
+.register h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: #fff;
+}
+.register label{
+    font-size: 20px;
+    margin: 15px 0;
+    color: #fff;
+}
+.register input[type=text]{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+} 
+.register #reg{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.register #reg:hover{
+    background-color: rgb(11, 226, 11);
+}
+.register #log{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: darkblue;
+    cursor: pointer;
+}
+.register #log:hover{
+    background-color: rgb(63, 63, 207);
+} 

@@ -1,0 +1,10 @@
+<div class="login">
+    <h1>Login</h1>
+    <form>
+        <label>Name</label>&nbsp;<input type="text" #myname id="myname" autocomplete="off"><br><br>
+        <label>Password</label>&nbsp;<input type="text" #mypass id="mypass" autocomplete="off"><br><br>
+
+        <input type="button" value="login" id="log" (click)="register(myname.value,mypass.value)"> 
+    </form>
+</div>
+
